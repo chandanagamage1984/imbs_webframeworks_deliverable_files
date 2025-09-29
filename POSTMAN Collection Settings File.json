@@ -11,9 +11,13 @@
         "method": "GET",
         "header": [],
         "url": {
-          "raw": "{{base_url}}/employees",
-          "host": ["{{base_url}}"],
-          "path": ["employees"]
+          "raw": "{{base_url}}/EmployeesAPI",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "EmployeesAPI"
+          ]
         }
       },
       "response": []
@@ -24,9 +28,14 @@
         "method": "GET",
         "header": [],
         "url": {
-          "raw": "{{base_url}}/employees/:id",
-          "host": ["{{base_url}}"],
-          "path": ["employees", ":id"],
+          "raw": "{{base_url}}/EmployeesAPI/:id",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "EmployeesAPI",
+            ":id"
+          ],
           "variable": [
             {
               "key": "id",
@@ -52,9 +61,13 @@
           "raw": "{\n  \"Name\": \"Mahesh Gamage\",\n  \"Position\": \"Software Engineer\",\n  \"Department\": \"IT\",\n  \"Salary\": 150000\n}"
         },
         "url": {
-          "raw": "{{base_url}}/employees",
-          "host": ["{{base_url}}"],
-          "path": ["employees"]
+          "raw": "{{base_url}}/EmployeesAPI",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "EmployeesAPI"
+          ]
         }
       },
       "response": []
@@ -74,9 +87,14 @@
           "raw": "{\n  \"Id\": 1,\n  \"Name\": \"Chandana Gamage\",\n  \"Position\": \"Senior Developer\",\n  \"Department\": \"IT\",\n  \"Salary\": 250000\n}"
         },
         "url": {
-          "raw": "{{base_url}}/employees/:id",
-          "host": ["{{base_url}}"],
-          "path": ["employees", ":id"],
+          "raw": "{{base_url}}/EmployeesAPI/:id",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "EmployeesAPI",
+            ":id"
+          ],
           "variable": [
             {
               "key": "id",
@@ -93,9 +111,14 @@
         "method": "DELETE",
         "header": [],
         "url": {
-          "raw": "{{base_url}}/employees/:id",
-          "host": ["{{base_url}}"],
-          "path": ["employees", ":id"],
+          "raw": "{{base_url}}/EmployeesAPI/:id",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "eEmployeesAPI",
+            ":id"
+          ],
           "variable": [
             {
               "key": "id",
@@ -110,7 +133,7 @@
   "variable": [
     {
       "key": "base_url",
-      "value": "http://localhost:3000/api"
+      "value": "http://localhost:5256/api"
     }
   ]
 }
